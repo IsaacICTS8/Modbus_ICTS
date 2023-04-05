@@ -38,9 +38,10 @@ while(1) :
     numero = (modbus_client.read_holding_registers(139,1))[0] #Registro
 
     if numero==0 :
-
-     print(valor)
+     
+     #Espaco pra conversao
+     print(valor)            
 
     else :
-    
+     #Espaco pra conversao
      print(valor*(-1))
