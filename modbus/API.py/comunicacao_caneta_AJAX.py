@@ -39,8 +39,8 @@ while(1) :
 
     if numero==0 :
 
-     print(numero)
+     print(valor)
 
     else :
     
-     print(numero)
+     print(valor*(-1))
